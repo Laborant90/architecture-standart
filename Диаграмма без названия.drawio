@@ -7,6 +7,9 @@
         <mxCell id="wEPvVzqedgDOLgArybXz-1" value="Оператор&amp;nbsp;&lt;div&gt;колл центра&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="20" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RH2fkM2q7yZRR7yrCugn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wEPvVzqedgDOLgArybXz-2" target="wEPvVzqedgDOLgArybXz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wEPvVzqedgDOLgArybXz-2" value="АБС" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="140" width="250" height="190" as="geometry" />
         </mxCell>
@@ -20,7 +23,7 @@
           <mxGeometry x="330" y="460" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wEPvVzqedgDOLgArybXz-6" value="АС колл-центра" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="10" width="100" height="80" as="geometry" />
+          <mxGeometry x="330" y="10" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wEPvVzqedgDOLgArybXz-7" value="Excel" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="460" width="100" height="80" as="geometry" />
@@ -40,7 +43,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="310" y="430" />
-              <mxPoint x="310" y="283" />
+              <mxPoint x="310" y="340" />
+              <mxPoint x="360" y="340" />
+              <mxPoint x="360" y="283" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -65,12 +70,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="RH2fkM2q7yZRR7yrCugn-1" value="Продажи через колл центр" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RH2fkM2q7yZRR7yrCugn-3" value="Digital оповещения клиентов" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="707" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="RH2fkM2q7yZRR7yrCugn-6" value="Управление договорами" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="380" width="120" height="60" as="geometry" />
         </mxCell>
@@ -82,6 +81,12 @@
         </mxCell>
         <mxCell id="RH2fkM2q7yZRR7yrCugn-9" value="Продажи в сети отделений" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RH2fkM2q7yZRR7yrCugn-10" value="Продажи через колл центр" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RH2fkM2q7yZRR7yrCugn-15" value="Digital оповещения клиентов" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="180" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
