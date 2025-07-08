@@ -4,11 +4,61 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wEPvVzqedgDOLgArybXz-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="100" width="30" height="60" as="geometry" />
+        <mxCell id="wEPvVzqedgDOLgArybXz-1" value="Оператор&amp;nbsp;&lt;div&gt;колл центра&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wEPvVzqedgDOLgArybXz-2" value="АБС" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="140" width="250" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEPvVzqedgDOLgArybXz-4" target="wEPvVzqedgDOLgArybXz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-4" value="Сотрудник отделения" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-5" value="Почта" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="460" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-6" value="АС колл-центра" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="10" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-7" value="Excel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="460" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wEPvVzqedgDOLgArybXz-8" target="wEPvVzqedgDOLgArybXz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-8" value="Сотрудник отдела&amp;nbsp;&lt;div&gt;кредитования&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEPvVzqedgDOLgArybXz-9" target="wEPvVzqedgDOLgArybXz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="430" />
+              <mxPoint x="310" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-9" value="Сотрудник отдела&lt;div&gt;депозитов&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-10" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEPvVzqedgDOLgArybXz-1" target="wEPvVzqedgDOLgArybXz-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wEPvVzqedgDOLgArybXz-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEPvVzqedgDOLgArybXz-6" target="wEPvVzqedgDOLgArybXz-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="525" y="50" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
