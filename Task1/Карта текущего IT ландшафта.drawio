@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36" version="27.2.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 YaBrowser/25.6.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Страница — 1" id="5F1SptqJWgLsoXpNeEqz">
     <mxGraphModel dx="946" dy="1715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,23 +34,41 @@
         <mxCell id="WRsuQvlPxicQ-JrY6lY0-11" value="Управление договорами" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dq3aFrVO4e_dmBAT3bPU-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dq3aFrVO4e_dmBAT3bPU-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="70" width="800" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="dq3aFrVO4e_dmBAT3bPU-4" value="АС колл центра" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dq3aFrVO4e_dmBAT3bPU-4" value="АС колл центра" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="620" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dq3aFrVO4e_dmBAT3bPU-5" value="Почта" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dq3aFrVO4e_dmBAT3bPU-5" value="Почта" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="80" width="640" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="dq3aFrVO4e_dmBAT3bPU-3" value="Excel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dq3aFrVO4e_dmBAT3bPU-3" value="Excel" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="100" width="210" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="dq3aFrVO4e_dmBAT3bPU-6" value="Фронт офис" style="rounded=1;whiteSpace=wrap;html=1;imageAlign=left;direction=north;verticalAlign=middle;textDirection=vertical-rl;" vertex="1" parent="1">
+        <mxCell id="dq3aFrVO4e_dmBAT3bPU-6" value="Фронт офис" style="rounded=1;whiteSpace=wrap;html=1;imageAlign=left;direction=north;verticalAlign=middle;textDirection=vertical-rl;" parent="1" vertex="1">
           <mxGeometry x="100" y="450" width="60" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dq3aFrVO4e_dmBAT3bPU-8" value="АБС" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="dq3aFrVO4e_dmBAT3bPU-8" value="АБС" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="270" y="620" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="kuD6JoilCfgsLDdoCVBW-1" value="IT отдел банка" style="rounded=1;whiteSpace=wrap;html=1;imageAlign=left;direction=north;verticalAlign=middle;textDirection=vertical-rl;" vertex="1" parent="1">
+          <mxGeometry x="100" y="720" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kuD6JoilCfgsLDdoCVBW-2" value="СМС шлюз" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="740" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kuD6JoilCfgsLDdoCVBW-3" value="Клиенты онлайн банка" style="rounded=1;whiteSpace=wrap;html=1;imageAlign=left;direction=north;verticalAlign=middle;textDirection=vertical-rl;" vertex="1" parent="1">
+          <mxGeometry x="100" y="860" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kuD6JoilCfgsLDdoCVBW-4" value="Функциональность интернет банка для клиента" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="-10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kuD6JoilCfgsLDdoCVBW-5" value="Интернет банк" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="870" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kuD6JoilCfgsLDdoCVBW-6" value="Сайт банка" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="940" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
