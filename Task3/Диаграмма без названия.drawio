@@ -1,9 +1,123 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 YaBrowser/25.6.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Страница — 1" id="xxq48Y9M2OeEzi2tBfrx">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="1715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-1" value="AБС" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="110" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-2" value="Сотрудник отдела депозитов" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="175" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-3" value="Интернет-банк" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="125" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-4" value="СУБД АБС" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="g5GIiWLqWu_MKFTymtqe-3" target="g5GIiWLqWu_MKFTymtqe-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-6" value="Запрос данных справочника депозитов и&amp;nbsp; ставок по депозитам" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g5GIiWLqWu_MKFTymtqe-2" target="g5GIiWLqWu_MKFTymtqe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="260" as="sourcePoint" />
+            <mxPoint x="190" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-9" value="Обновление справочника депозитов и ставок по депозитам" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-10" value="Сайт банка" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-11" value="Клиент банка" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="90" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g5GIiWLqWu_MKFTymtqe-11" target="g5GIiWLqWu_MKFTymtqe-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="803" y="320" as="sourcePoint" />
+            <mxPoint x="853" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-13" value="Кэш&lt;div&gt;справочных данных&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="730" y="170" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-14" value="API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="170" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="g5GIiWLqWu_MKFTymtqe-10" target="g5GIiWLqWu_MKFTymtqe-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="310" as="sourcePoint" />
+            <mxPoint x="720" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="120" />
+              <mxPoint x="910" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-16" value="Запрос данных депозитов и&amp;nbsp; ставок по депозитам" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-17" value="Система кол-центра" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="350" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-18" value="Запрос данных депозитов и&amp;nbsp; ставок по депозитам, оформление заявки на депозит" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="g5GIiWLqWu_MKFTymtqe-10" target="g5GIiWLqWu_MKFTymtqe-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="300" as="sourcePoint" />
+            <mxPoint x="960" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="135" />
+              <mxPoint x="940" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-20" value="Оформление заявки на депозит" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="195" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="347" as="sourcePoint" />
+            <mxPoint x="840" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-23" value="Получение необработанных заявок на депозит" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="g5GIiWLqWu_MKFTymtqe-17" target="g5GIiWLqWu_MKFTymtqe-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="490" as="sourcePoint" />
+            <mxPoint x="840" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="993" y="270" />
+              <mxPoint x="853" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-25" value="Обновление статусов заявки на депозит" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-26" value="Сотрудник колл-центра" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.474;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="g5GIiWLqWu_MKFTymtqe-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="918" y="580" as="sourcePoint" />
+            <mxPoint x="920" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-30" value="Обработка заявок на депозит (звонок клиенту)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
