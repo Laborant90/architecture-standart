@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 YaBrowser/25.6.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Страница — 1" id="xxq48Y9M2OeEzi2tBfrx">
-    <mxGraphModel dx="946" dy="1715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="1715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="g5GIiWLqWu_MKFTymtqe-1" value="AБС" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="110" width="180" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="g5GIiWLqWu_MKFTymtqe-2" value="Сотрудник отдела депозитов" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-2" value="Сотрудник отдела депозитов (бэк-офис)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="175" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g5GIiWLqWu_MKFTymtqe-3" value="Интернет-банк" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -31,8 +31,8 @@
             <mxPoint x="190" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g5GIiWLqWu_MKFTymtqe-9" value="Обновление справочника депозитов и ставок по депозитам" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="140" width="60" height="30" as="geometry" />
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-9" value="Обновление справочника депозитов и ставок по депозитам, расчёт индивидуальных ставок по заявкам" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g5GIiWLqWu_MKFTymtqe-10" value="Сайт банка" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="90" width="100" height="60" as="geometry" />
@@ -122,8 +122,8 @@
         <mxCell id="g5GIiWLqWu_MKFTymtqe-30" value="Обработка заявок на депозит (звонок клиенту)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="570" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g5GIiWLqWu_MKFTymtqe-31" value="Запрос данных депозитов и&amp;nbsp; ставок по депозитам" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="770" y="325" width="130" height="30" as="geometry" />
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-31" value="Запрос данных депозитов и&amp;nbsp; ставок по депозитам с учётом индивидуальных условий" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="325" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g5GIiWLqWu_MKFTymtqe-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="g5GIiWLqWu_MKFTymtqe-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -134,6 +134,15 @@
               <mxPoint x="818" y="310" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" target="g5GIiWLqWu_MKFTymtqe-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="538" y="235" as="sourcePoint" />
+            <mxPoint x="680" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-36" value="Обновление данных по заявкам оформленных через интернет-банк" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
