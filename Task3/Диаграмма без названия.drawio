@@ -150,7 +150,7 @@
         </object>
         <object placeholders="1" c4Name="Кэш справочных данных" c4Type="Container" c4Technology="MS SQL" c4Description="Кэш справочных данных" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="g5GIiWLqWu_MKFTymtqe-45">
           <mxCell style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
-            <mxGeometry x="540" y="-30" width="240" height="120" as="geometry" />
+            <mxGeometry x="360" y="-100" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="g5GIiWLqWu_MKFTymtqe-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g5GIiWLqWu_MKFTymtqe-44" target="g5GIiWLqWu_MKFTymtqe-45">
@@ -206,6 +206,23 @@
         </mxCell>
         <mxCell id="g5GIiWLqWu_MKFTymtqe-61" value="Получение необработанных заявок [REST]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1350" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="SMS-шлюз" c4Type="Software System" c4Description="SMS-шлюз" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="g5GIiWLqWu_MKFTymtqe-63">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="870" y="-170" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g5GIiWLqWu_MKFTymtqe-44" target="g5GIiWLqWu_MKFTymtqe-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-65" value="Оповещение клиентов&lt;div&gt;[REST]&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="727" y="-50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g5GIiWLqWu_MKFTymtqe-63" target="g5GIiWLqWu_MKFTymtqe-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5GIiWLqWu_MKFTymtqe-68" value="Сообщение об изменении статуса заявки [SMS]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="-160" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
